@@ -1,0 +1,19 @@
+resolver: lts-5.1
+
+packages:
+- location:
+    git: git@github.com:tweag/distributed-closure
+    commit: 565c4da9b4706407b209aa7ebc896fd79ccd651d
+  extra-dep: true
+- location:
+    git: git@github.com:tweag/sparkle
+    commit:  46f11429b68ae9afa67360d54ec4d20aa6f422a7
+  subdirs:
+  - inline-java
+  - sparkle
+- apps/hello
+extra-deps:
+- thread-local-storage-0.1.0.3
+nix:
+  enable: false
+  shell-file: shell.nix
