@@ -22,7 +22,7 @@
   </properties>
   <build>
     <plugins>
-      <!-- - - - - - - - - - - - - - - - - - - - -->
+      <!-- - - - - - - - - - - - - - - - - - - - - -->
       <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
@@ -32,7 +32,7 @@
                   <goals><goal>add-source</goal></goals>
                   <configuration>
                       <sources>
-                          <source>.stack-work/downloaded/12d72c1bd12b305b21c25c160264ed2f0bbd356dccf3784c8e85cb3d48eab27b/sparkle/src/main/java/</source>
+                          <source>${sparkle.src}</source>
                       </sources>
                   </configuration>
               </execution>
