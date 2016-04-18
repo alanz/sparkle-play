@@ -7,10 +7,10 @@ packages:
   extra-dep: true
 - location:
     git: git@github.com:tweag/sparkle
-    commit:  46f11429b68ae9afa67360d54ec4d20aa6f422a7
+    commit: f4f59ca7000a8a6acd82ffe6a891caf6080f50d6
   subdirs:
   - inline-java
-  - sparkle
+  - '.'
 - apps/hello
 extra-deps:
 - thread-local-storage-0.1.0.3
