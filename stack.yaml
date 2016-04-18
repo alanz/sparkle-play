@@ -6,8 +6,10 @@ packages:
     commit: 565c4da9b4706407b209aa7ebc896fd79ccd651d
   extra-dep: true
 - location:
-    git: git@github.com:tweag/sparkle
-    commit: f4f59ca7000a8a6acd82ffe6a891caf6080f50d6
+    # git: git@github.com:tweag/sparkle
+    # commit: f4f59ca7000a8a6acd82ffe6a891caf6080f50d6
+    git: git@github.com:alanz/sparkle
+    commit: 82a7bfbb37590a1203c66e8d37d8c611229580e4
   subdirs:
   - inline-java
   - '.'

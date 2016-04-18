@@ -27,3 +27,4 @@ main = do
     numBs <- RDD.count bs
     putStrLn $ show numAs ++ " lines with a, "
             ++ show numBs ++ " lines with b."
+    putStrLn "sparkle-play hello done"
